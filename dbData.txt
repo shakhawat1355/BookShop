@@ -1,0 +1,56 @@
+INSERT INTO Authors (Name, Address, ImgDir)
+VALUES ('Samantha OConnor', '543 Maple Lane', 'images/samantha_oconnor.jpg');
+INSERT INTO Authors (Name, Address, ImgDir)
+VALUES ('David Smith', '789 Oak Avenue', '');
+INSERT INTO Authors (Name, Address, ImgDir)
+VALUES ('Emily Johnson', NULL, 'images/emily_johnson.jpg');
+INSERT INTO Authors (Name, Address, ImgDir)
+VALUES ('Michael Brown', '987 Elm Street', 'images/michael_brown.png');
+INSERT INTO Authors (Name, Address, ImgDir)
+VALUES ('John Doe', '123 Main Street', 'images/john_doe.jpg');
+
+INSERT INTO Authors (Name, Address, ImgDir)
+VALUES ('Sarah Adams', '5678 Park Avenue, Apartment 10B, New York City, NY', 'images/sarah_adams.jpg');
+
+
+
+INSERT INTO Book (Title, Language, ImgDir, AuthorId)
+VALUES ('The Great Gatsby', 'English', 'images/great_gatsby.jpg', 1);
+
+INSERT INTO Book (Title, Language, ImgDir, AuthorId)
+VALUES ('The Catcher in the Rye', 'English', 'images/catcher_in_the_rye.jpg', 1);
+
+
+INSERT INTO Book (Title, Language, ImgDir, AuthorId)
+VALUES ('To Kill a Mockingbird', 'English', 'images/to_kill_a_mockingbird.jpg', 2);
+
+INSERT INTO Book (Title, Language, ImgDir, AuthorId)
+VALUES ('Go Set a Watchman', 'English', 'images/go_set_a_watchman.jpg', 2);
+
+
+INSERT INTO Book (Title, Language, ImgDir, AuthorId)
+VALUES ('1984', 'English', 'images/1984.jpg', 3);
+
+INSERT INTO Book (Title, Language, ImgDir, AuthorId)
+VALUES ('Animal Farm', 'English', 'images/animal_farm.jpg', 3);
+
+
+INSERT INTO Book (Title, Language, ImgDir, AuthorId)
+VALUES ('The Hobbit', 'English', 'images/the_hobbit.jpg', 4);
+
+INSERT INTO Book (Title, Language, ImgDir, AuthorId)
+VALUES ('The Lord of the Rings', 'English', 'images/lotr.jpg', 4);
+
+
+INSERT INTO Book (Title, Language, ImgDir, AuthorId)
+VALUES ('Harry Potter and the Philosopher''s Stone', 'English', 'images/harry_potter_1.jpg', 5);
+
+INSERT INTO Book (Title, Language, ImgDir, AuthorId)
+VALUES ('Harry Potter and the Chamber of Secrets', 'English', 'images/harry_potter_2.jpg', 5);
+
+
+INSERT INTO Book (Title, Language, ImgDir, AuthorId)
+VALUES ('The Chronicles of Narnia: The Lion, the Witch, and the Wardrobe', 'English', 'images/narnia.jpg', 6);
+
+INSERT INTO Book (Title, Language, ImgDir, AuthorId)
+VALUES ('The Chronicles of Narnia: Prince Caspian', 'English', 'images/narnia2.jpg', 6);
